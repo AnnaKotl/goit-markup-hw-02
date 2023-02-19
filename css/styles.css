@@ -177,6 +177,28 @@ body {
 
 .footer-text {
     font-size: 16px;
-    line-height: 24px;
     color: var(--accent-color);
+}
+
+/* PORTFOLIO.HTML */
+
+/* Button filter */
+
+.finger-btn {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand-color);
+    background-color: var(--light-color);
+    cursor: pointer;
+}
+
+.finger-btn:hover,
+.finger-btn:focus {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
+}
+
+.catalog-text {
+    color: var(--text-color);
 }
