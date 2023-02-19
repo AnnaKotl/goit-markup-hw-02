@@ -59,7 +59,7 @@ body {
     color: var(--primary-brand-color);
 }
 
-.navigation-item {
+.nav-link {
     color: var(--hero-background-color);
     font-weight: 500;
     font-size: 16px;
@@ -98,6 +98,7 @@ body {
 } 
 
 .hero-btn {
+    font-family: var(--primari-font);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
@@ -185,6 +186,7 @@ body {
 /* Button filter */
 
 .finger-btn {
+    font-family: var(--primari-font);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
